@@ -26,8 +26,6 @@ class LoginViewController: UIViewController, LoginControllerDelegate {
         self.title = Constants.instantGoTitle
         loginController.delegate = self
         loginController.requestCalendarPermissions()
-        username.text = "test@hotmail.com"
-        password.text = "xxxxxxxx"
     }
 
     override func didReceiveMemoryWarning() {
